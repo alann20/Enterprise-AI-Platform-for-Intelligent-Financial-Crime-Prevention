@@ -110,6 +110,13 @@ The Enterprise AI Platform integrates modern AI and cloud-native technologies to
                                │
           Enterprise Data Platform
 ```
+### 📖 AI Architecture Overview
+
+The proposed Enterprise AI Platform serves as the intelligent core of GlobalBank's digital ecosystem. Customer requests originating from mobile applications, web banking, ATMs, point-of-sale systems, APIs, and external partners are securely routed through the **API Gateway** and **Web Application Firewall (WAF)** before reaching the AI platform.
+
+Within the platform, specialized AI capabilities collaborate to deliver real-time business intelligence. **Fraud Detection** evaluates financial transactions, **Enterprise Search** retrieves organizational knowledge, **AI Copilot** assists employees with daily operations, **AI Agents** automate complex workflows, **Knowledge Assistant** provides contextual answers using enterprise data, and **Risk Assessment** supports intelligent decision-making.
+
+The AI layer is powered by a modern technology stack that combines **Machine Learning**, **Generative AI**, **Retrieval-Augmented Generation (RAG)**, **Knowledge Graphs**, **Model Context Protocol (MCP)**, and **LLMOps**. These capabilities consume governed enterprise data from the **Enterprise Data Platform**, enabling scalable, secure, explainable, and real-time AI services across the organization while ensuring regulatory compliance and enterprise-wide AI governance.
 
 ---
 
