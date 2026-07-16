@@ -2,13 +2,13 @@
 
 ## 📖 Business Context
 
-**GlobalBank Corporation** es una institución financiera multinacional ficticia creada para simular un escenario empresarial real de transformación mediante Inteligencia Artificial.
+**GlobalBank Corporation** is a fictional multinational financial institution created to simulate a real-world enterprise AI transformation initiative.
 
-La industria bancaria está acelerando su transformación digital mediante **Mobile Banking**, **Open Banking**, **Instant Payments**, **Digital Wallets**, **Embedded Finance** y **AI-powered Financial Services**. Aunque estas capacidades mejoran la experiencia del cliente y aumentan el volumen de transacciones, también incrementan significativamente la superficie de ataque para el fraude financiero y el cibercrimen.
+The global banking industry is accelerating its digital transformation through **Mobile Banking**, **Open Banking**, **Instant Payments**, **Digital Wallets**, **Embedded Finance**, and **AI-powered Financial Services**. While these innovations improve customer experience and increase transaction volumes, they also significantly expand the attack surface for financial fraud and cybercrime.
 
-Las plataformas tradicionales de detección de fraude, basadas en reglas estáticas y modelos aislados de Machine Learning, ya no son suficientes para detectar amenazas modernas como **Synthetic Identity Fraud**, **Credential Theft**, **Bot Networks**, **Social Engineering** y ataques potenciados por Inteligencia Artificial.
+Traditional fraud detection platforms based on static business rules and isolated Machine Learning models are no longer capable of addressing modern threats such as **Synthetic Identity Fraud**, **Credential Theft**, **Bot Networks**, **Social Engineering**, and **AI-powered fraud attacks**.
 
-Como respuesta, GlobalBank inicia el **Enterprise AI Transformation Program**, un programa estratégico cuyo objetivo es construir una plataforma empresarial de IA capaz de detectar fraude en tiempo real, automatizar investigaciones, mejorar la toma de decisiones y establecer un modelo de gobierno de IA escalable y seguro.
+To address these challenges, GlobalBank launched the **Enterprise AI Transformation Program**, a strategic initiative designed to build a secure, scalable, and governed Enterprise AI Platform capable of detecting fraud in real time, automating investigations, improving decision-making, and establishing enterprise-wide AI governance.
 
 ---
 
@@ -31,13 +31,13 @@ Como respuesta, GlobalBank inicia el **Enterprise AI Transformation Program**, u
 
 | Attribute | Value |
 |------------|-------|
-| Company | GlobalBank Corporation |
-| Industry | Financial Services |
-| Countries | USA, Canada, Mexico, Brazil, UK, Germany, Singapore, Australia |
-| Customers | 52 Million |
-| Employees | 95,000 |
-| Daily Transactions | 45+ Million |
-| Channels | Mobile, Web, ATM, POS, APIs, Payment Gateways |
+| **Company** | GlobalBank Corporation |
+| **Industry** | Financial Services |
+| **Countries** | USA, Canada, Mexico, Brazil, UK, Germany, Singapore, Australia |
+| **Customers** | 52 Million |
+| **Employees** | 95,000 |
+| **Daily Transactions** | 45+ Million |
+| **Channels** | Mobile Banking, Web Banking, ATMs, POS, APIs, Payment Gateways |
 
 ---
 
@@ -50,7 +50,7 @@ Como respuesta, GlobalBank inicia el **Enterprise AI Transformation Program**, u
 - Disconnected customer information
 - High operational costs
 - Long investigation cycles
-- High false-positive rate
+- High false-positive rates
 - Legacy systems
 - Limited scalability
 
@@ -60,7 +60,7 @@ Como respuesta, GlobalBank inicia el **Enterprise AI Transformation Program**, u
 - AI Governance
 - Explainability
 - Auditability
-- Privacy
+- Data Privacy
 - Cybersecurity
 - Regulatory Compliance
 
@@ -68,7 +68,7 @@ Como respuesta, GlobalBank inicia el **Enterprise AI Transformation Program**, u
 
 # 💡 Proposed Solution
 
-The Enterprise AI Platform integrates multiple AI and cloud-native capabilities to create an intelligent fraud prevention ecosystem.
+The Enterprise AI Platform integrates modern AI and cloud-native technologies to build an intelligent financial crime prevention ecosystem.
 
 ## Core Technologies
 
@@ -89,26 +89,26 @@ The Enterprise AI Platform integrates multiple AI and cloud-native capabilities 
 # 🏗️ Enterprise AI Platform
 
 ```text
-                        Customers
-                             │
-     Mobile │ Web │ ATM │ POS │ APIs │ Partners
-                             │
-                    API Gateway / WAF
-                             │
-        ┌─────────────────────────────────────┐
-        │ Enterprise AI Platform              │
-        ├─────────────────────────────────────┤
-        │ Fraud Detection                     │
-        │ Enterprise Search                   │
-        │ AI Copilot                          │
-        │ AI Agents                           │
-        │ Knowledge Assistant                 │
-        │ Risk Assessment                     │
-        └─────────────────────────────────────┘
-                             │
-      ML │ GenAI │ RAG │ Graph │ MCP │ LLMOps
-                             │
-        Enterprise Data Platform
+                          Customers
+                               │
+      Mobile │ Web │ ATM │ POS │ APIs │ Partners
+                               │
+                      API Gateway / WAF
+                               │
+          ┌─────────────────────────────────────┐
+          │        Enterprise AI Platform       │
+          ├─────────────────────────────────────┤
+          │ Fraud Detection                     │
+          │ Enterprise Search                   │
+          │ AI Copilot                          │
+          │ AI Agents                           │
+          │ Knowledge Assistant                 │
+          │ Risk Assessment                     │
+          └─────────────────────────────────────┘
+                               │
+       ML │ GenAI │ RAG │ Graph │ MCP │ LLMOps
+                               │
+          Enterprise Data Platform
 ```
 
 ---
@@ -121,12 +121,12 @@ The Enterprise AI Platform integrates multiple AI and cloud-native capabilities 
 - Enterprise Knowledge Management
 - Reduced Fraud Losses
 - Improved Customer Trust
-- Higher Operational Efficiency
+- Increased Operational Efficiency
 - Enterprise AI Governance
 
 ---
 
-# 📊 Key Performance Indicators
+# 📊 Key Performance Indicators (KPIs)
 
 | KPI | Target |
 |------|--------|
@@ -139,9 +139,9 @@ The Enterprise AI Platform integrates multiple AI and cloud-native capabilities 
 
 ---
 
-# 📚 Enterprise AI Repository
+# 📚 Enterprise AI Architecture Repository
 
-Este caso práctico utilizará todos los dominios del **Enterprise AI Architecture Repository**, incluyendo:
+This case study will leverage every domain of the **Enterprise AI Architecture Repository**, including:
 
 - Executive Summary
 - Business Architecture
@@ -151,7 +151,7 @@ Este caso práctico utilizará todos los dominios del **Enterprise AI Architectu
 - AI Reference Architectures
 - RAG Repository
 - Agentic AI
-- MCP
+- Model Context Protocol (MCP)
 - Data Architecture
 - Cloud Architecture
 - AI Security
@@ -181,18 +181,18 @@ Este caso práctico utilizará todos los dominios del **Enterprise AI Architectu
 
 # 🛠️ Deliverables
 
-Durante este proyecto se desarrollarán más de **150 artefactos de arquitectura**, entre ellos:
+Throughout this project, more than **150 enterprise architecture artifacts** will be developed, including:
 
 - Business Case
-- Capability Maps
+- Business Capability Maps
 - Value Streams
 - Enterprise Roadmaps
-- C4 Diagrams
+- C4 Architecture Diagrams
 - Deployment Diagrams
 - Sequence Diagrams
 - Data Flow Diagrams
 - Threat Models
-- ADRs
+- Architecture Decision Records (ADRs)
 - AI Governance Framework
 - AI Security Framework
 - LLMOps Playbook
@@ -205,7 +205,7 @@ Durante este proyecto se desarrollarán más de **150 artefactos de arquitectura
 
 # 🎓 Learning Objectives
 
-Al finalizar este proyecto serás capaz de diseñar una plataforma Enterprise AI completa aplicando:
+By completing this project, you will gain hands-on experience designing an end-to-end Enterprise AI Platform by applying:
 
 - Enterprise Architecture
 - Cloud Architecture
@@ -214,8 +214,8 @@ Al finalizar este proyecto serás capaz de diseñar una plataforma Enterprise AI
 - Machine Learning
 - LLMOps
 - Agentic AI
-- RAG
-- MCP
+- Retrieval-Augmented Generation (RAG)
+- Model Context Protocol (MCP)
 - AI Governance
 - AI Security
 - Architecture Review
@@ -228,9 +228,12 @@ Al finalizar este proyecto serás capaz de diseñar una plataforma Enterprise AI
 
 **Enterprise Data & AI Architect | Cloud Strategy | Enterprise Architecture | Generative AI**
 
-LinkedIn:
+**LinkedIn**
+
 https://www.linkedin.com/in/michel-alan-l%C3%B3pez-lara-49a88239/
 
 ---
 
-⭐ **If you find this project useful, consider giving it a Star and sharing it with other Enterprise Architecture and AI professionals.**
+## ⭐ Support the Project
+
+If you find this repository useful, consider giving it a **⭐ Star** and sharing it with other professionals interested in **Enterprise Architecture, Cloud Computing, Data Engineering, Artificial Intelligence, and Enterprise AI Platforms**.
