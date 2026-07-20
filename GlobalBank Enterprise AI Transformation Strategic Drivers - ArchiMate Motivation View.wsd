@@ -1,0 +1,178 @@
+@startuml
+!include <archimate/Archimate>
+
+title GlobalBank Enterprise AI Transformation\nStrategic Drivers
+
+left to right direction
+
+' =========================================================
+' Capa de Motivación
+' =========================================================
+
+Motivation_Stakeholder(GlobalBank, "GlobalBank Corporation")
+
+Motivation_Driver(Business_Drivers, "Business Drivers")
+Motivation_Driver(Technology_Drivers, "Technology Drivers")
+Motivation_Driver(Governance_Drivers, "Governance Drivers")
+
+Motivation_Goal(Business_Goal, "Reduce Fraud and Improve Customer Trust")
+Motivation_Goal(Technology_Goal, "Modernize and Scale Enterprise AI")
+Motivation_Goal(Governance_Goal, "Establish Secure and Responsible AI")
+Motivation_Goal(Strategic_Goal, "Secure, Scalable and Governed\nEnterprise AI Platform")
+
+GlobalBank --> Business_Drivers
+GlobalBank --> Technology_Drivers
+GlobalBank --> Governance_Drivers
+
+Business_Drivers --> Business_Goal
+Technology_Drivers --> Technology_Goal
+Governance_Drivers --> Governance_Goal
+
+Business_Goal --> Strategic_Goal
+Technology_Goal --> Strategic_Goal
+Governance_Goal --> Strategic_Goal
+
+' =========================================================
+' Business Drivers
+' =========================================================
+
+Business_Function(Reduce_Fraud, "Reduce Fraud-Related\nFinancial Losses")
+Business_Function(Customer_Trust, "Improve Customer Trust")
+Business_Function(Transaction_Security, "Increase Digital\nTransaction Security")
+Business_Function(Investigations, "Accelerate Investigation\nProcesses")
+Business_Function(Operational_Costs, "Reduce Operational Costs")
+Business_Function(Customer_Experience, "Improve Customer Experience")
+Business_Function(Real_Time_Decisions, "Enable Real-Time\nDecision-Making")
+Business_Function(Employee_Productivity, "Increase Employee Productivity")
+Business_Function(Reusable_AI, "Create Reusable\nAI Capabilities")
+Business_Function(Time_To_Market, "Improve Time to Market")
+Business_Function(Global_Growth, "Support Global\nBusiness Growth")
+
+Business_Drivers --> Reduce_Fraud
+Business_Drivers --> Customer_Trust
+Business_Drivers --> Transaction_Security
+Business_Drivers --> Investigations
+Business_Drivers --> Operational_Costs
+Business_Drivers --> Customer_Experience
+Business_Drivers --> Real_Time_Decisions
+Business_Drivers --> Employee_Productivity
+Business_Drivers --> Reusable_AI
+Business_Drivers --> Time_To_Market
+Business_Drivers --> Global_Growth
+
+' =========================================================
+' Technology Drivers
+' =========================================================
+
+Application_Function(Legacy_Modernization, "Modernize Legacy\nFraud Platforms")
+Application_Function(Shared_AI_Services, "Shared Enterprise\nAI Services")
+Application_Function(Central_AI_Infrastructure, "Centralize AI\nInfrastructure")
+Application_Function(Standard_Integration, "Standardize AI\nIntegration Patterns")
+Application_Function(Real_Time_Processing, "Enable Real-Time\nData Processing")
+Application_Function(Reusable_APIs, "Implement Reusable\nAI APIs")
+Application_Function(Event_Driven, "Enable Event-Driven\nIntegration")
+
+Technology_Node(Cloud_Native, "Cloud-Native Architecture")
+Technology_Node(Resilient_Platform, "Resilient and Scalable\nAI Infrastructure")
+
+Technology_Drivers --> Legacy_Modernization
+Technology_Drivers --> Shared_AI_Services
+Technology_Drivers --> Central_AI_Infrastructure
+Technology_Drivers --> Standard_Integration
+Technology_Drivers --> Real_Time_Processing
+Technology_Drivers --> Reusable_APIs
+Technology_Drivers --> Event_Driven
+Technology_Drivers --> Cloud_Native
+Technology_Drivers --> Resilient_Platform
+
+' =========================================================
+' Governance Drivers
+' =========================================================
+
+Business_Function(AI_Governance, "Enterprise AI Governance")
+Business_Function(Model_Approval, "Standardized Model\nApproval Processes")
+Business_Function(Auditability, "Auditability and Traceability")
+Business_Function(Responsible_AI, "Responsible AI Controls")
+Business_Function(Model_Agent_Risk, "Model and Agent\nRisk Management")
+Business_Function(Regulatory_Reporting, "Regulatory Reporting")
+Business_Function(Architecture_Standards, "Enterprise Architecture\nStandards")
+Business_Function(Third_Party_AI, "Third-Party AI\nProvider Governance")
+Business_Function(AI_Lifecycle, "AI Lifecycle\nRisk Management")
+
+Governance_Drivers --> AI_Governance
+Governance_Drivers --> Model_Approval
+Governance_Drivers --> Auditability
+Governance_Drivers --> Responsible_AI
+Governance_Drivers --> Model_Agent_Risk
+Governance_Drivers --> Regulatory_Reporting
+Governance_Drivers --> Architecture_Standards
+Governance_Drivers --> Third_Party_AI
+Governance_Drivers --> AI_Lifecycle
+
+' =========================================================
+' Enterprise AI Transformation Program
+' =========================================================
+
+Application_Component(AI_Program, "GlobalBank Enterprise AI\nTransformation Program")
+
+Application_Component(AI_Platform, "Enterprise AI Platform")
+
+Strategic_Goal --> AI_Program
+AI_Program --> AI_Platform
+
+Shared_AI_Services --> AI_Platform
+Central_AI_Infrastructure --> AI_Platform
+Real_Time_Processing --> AI_Platform
+Reusable_APIs --> AI_Platform
+Event_Driven --> AI_Platform
+Cloud_Native --> AI_Platform
+Resilient_Platform --> AI_Platform
+
+AI_Governance --> AI_Platform
+Model_Approval --> AI_Platform
+Auditability --> AI_Platform
+Responsible_AI --> AI_Platform
+Model_Agent_Risk --> AI_Platform
+Architecture_Standards --> AI_Platform
+AI_Lifecycle --> AI_Platform
+
+' =========================================================
+' Capacidades Objetivo
+' =========================================================
+
+Business_Function(Fraud_Detection, "Real-Time Fraud Detection")
+Business_Function(Automated_Investigation, "Automated Fraud Investigation")
+Business_Function(Human_Decisions, "Human Decision Support")
+Business_Function(AI_Security, "AI Security and Protection")
+Business_Function(MLOps_LLMOps, "MLOps and LLMOps")
+Business_Function(AI_Observability, "AI Observability")
+Business_Function(Compliance, "Regulatory Compliance")
+
+AI_Platform --> Fraud_Detection
+AI_Platform --> Automated_Investigation
+AI_Platform --> Human_Decisions
+AI_Platform --> AI_Security
+AI_Platform --> MLOps_LLMOps
+AI_Platform --> AI_Observability
+AI_Platform --> Compliance
+
+' =========================================================
+' Resultados Estratégicos
+' =========================================================
+
+Motivation_Outcome(Reduced_Losses, "Reduced Fraud Losses")
+Motivation_Outcome(Faster_Investigations, "Faster Investigations")
+Motivation_Outcome(Lower_Costs, "Lower Operational Costs")
+Motivation_Outcome(Improved_Trust, "Improved Customer Trust")
+Motivation_Outcome(Faster_Delivery, "Faster AI Time to Market")
+Motivation_Outcome(Regulatory_Compliance, "Regulatory Compliance")
+Motivation_Outcome(Business_Growth, "Sustainable Global Growth")
+
+Fraud_Detection --> Reduced_Losses
+Automated_Investigation --> Faster_Investigations
+Reusable_AI --> Lower_Costs
+Human_Decisions --> Improved_Trust
+MLOps_LLMOps --> Faster_Delivery
+Compliance --> Regulatory_Compliance
+AI_Platform --> Business_Growth
+@enduml
