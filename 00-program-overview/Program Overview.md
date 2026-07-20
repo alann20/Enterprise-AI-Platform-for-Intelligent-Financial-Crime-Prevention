@@ -1,4 +1,4 @@
-# 1. Program Overview
+# 0. Program Overview
 
 The **GlobalBank Enterprise AI Transformation Program** is an end-to-end enterprise architecture case study that demonstrates how a multinational financial institution can design, govern, secure, implement, and operate a global **Enterprise AI Platform**.
 
