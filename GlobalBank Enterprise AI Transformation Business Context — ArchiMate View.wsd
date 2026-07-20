@@ -1,0 +1,155 @@
+@startuml
+!include <archimate/Archimate>
+
+title GlobalBank Enterprise AI Transformation\nBusiness Context — ArchiMate View
+
+
+
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam linetype ortho
+skinparam nodesep 35
+skinparam ranksep 45
+skinparam defaultFontName Arial
+skinparam defaultFontSize 12
+skinparam ArrowFontSize 10
+
+' =========================================================
+' MOTIVATION LAYER — STAKEHOLDERS
+' =========================================================
+Motivation_Stakeholder(customers, "Customers")
+Motivation_Stakeholder(regulators, "Financial Regulators")
+Motivation_Stakeholder(executives, "Executive Leadership")
+Motivation_Stakeholder(partners, "Fintechs and Ecosystem Partners")
+
+Lay_R(customers, regulators)
+Lay_R(regulators, executives)
+Lay_R(executives, partners)
+
+' =========================================================
+' MOTIVATION LAYER — DRIVERS
+' =========================================================
+Motivation_Driver(customer_expectations, "Customer Expectations")
+Motivation_Driver(regulatory_requirements, "Regulatory Requirements")
+Motivation_Driver(fintech_competition, "Fintech Competition")
+Motivation_Driver(emerging_technology, "Emerging Technologies")
+Motivation_Driver(new_business_models, "New Digital Business Models")
+Motivation_Driver(fraud_threats, "Evolving Fraud and Cyber Threats")
+
+Lay_R(customer_expectations, regulatory_requirements)
+Lay_R(regulatory_requirements, fintech_competition)
+Lay_R(fintech_competition, emerging_technology)
+Lay_R(emerging_technology, new_business_models)
+Lay_R(new_business_models, fraud_threats)
+
+Rel_Association(customers, customer_expectations, "expects")
+Rel_Association(regulators, regulatory_requirements, "mandates")
+Rel_Association(partners, fintech_competition, "intensifies")
+Rel_Association(executives, new_business_models, "sponsors")
+
+' =========================================================
+' BUSINESS LAYER — DIGITAL FINANCIAL CAPABILITIES
+' =========================================================
+Business_Service(mobile_banking, "Mobile Banking")
+Business_Service(open_banking, "Open Banking")
+Business_Service(real_time_payments, "Instant and Real-Time Payments")
+Business_Service(digital_wallets, "Digital Wallets")
+Business_Service(embedded_finance, "Embedded Finance and BaaS")
+Business_Service(ai_financial_services, "AI-Powered Financial Services")
+Business_Service(autonomous_operations, "Autonomous Financial Operations")
+
+Lay_R(mobile_banking, open_banking)
+Lay_R(open_banking, real_time_payments)
+Lay_R(real_time_payments, digital_wallets)
+Lay_R(digital_wallets, embedded_finance)
+Lay_R(embedded_finance, ai_financial_services)
+Lay_R(ai_financial_services, autonomous_operations)
+
+Rel_Influence(customer_expectations, mobile_banking, "accelerates")
+Rel_Influence(fintech_competition, open_banking, "accelerates")
+Rel_Influence(emerging_technology, ai_financial_services, "enables")
+Rel_Influence(new_business_models, embedded_finance, "drives")
+Rel_Influence(emerging_technology, autonomous_operations, "enables")
+
+' =========================================================
+' MOTIVATION LAYER — OUTCOMES AND ASSESSMENTS
+' =========================================================
+Motivation_Outcome(customer_value, "Improved Customer Experience,\nHigher Transaction Volume and New Revenue")
+Motivation_Assessment(ecosystem_complexity, "Complex API, Cloud, Third-Party,\nIdentity and Real-Time Data Ecosystem")
+Motivation_Assessment(expanded_attack_surface, "Expanded Fraud and Cybersecurity\nAttack Surface")
+Motivation_Assessment(operational_exposure, "Higher Operational, Privacy,\nModel and Regulatory Exposure")
+Motivation_Assessment(legacy_limitations, "Traditional Fraud Platforms Are\nInsufficient for Modern Threats")
+
+Rel_Influence(mobile_banking, customer_value, "+")
+Rel_Influence(open_banking, customer_value, "+")
+Rel_Influence(real_time_payments, customer_value, "+")
+Rel_Influence(digital_wallets, customer_value, "+")
+Rel_Influence(embedded_finance, customer_value, "+")
+Rel_Influence(ai_financial_services, customer_value, "+")
+Rel_Influence(autonomous_operations, customer_value, "+")
+
+Rel_Influence(open_banking, ecosystem_complexity, "+")
+Rel_Influence(real_time_payments, ecosystem_complexity, "+")
+Rel_Influence(embedded_finance, ecosystem_complexity, "+")
+Rel_Influence(autonomous_operations, ecosystem_complexity, "+")
+
+Rel_Influence(ecosystem_complexity, expanded_attack_surface, "+")
+Rel_Influence(fraud_threats, expanded_attack_surface, "+")
+Rel_Influence(expanded_attack_surface, operational_exposure, "+")
+Rel_Influence(regulatory_requirements, operational_exposure, "+")
+Rel_Influence(expanded_attack_surface, legacy_limitations, "exposes")
+
+' =========================================================
+' APPLICATION LAYER — CURRENT-STATE FRAUD PLATFORM
+' =========================================================
+Application_Component(legacy_fraud_platform, "Traditional Fraud Management Platform")
+Application_Function(static_rules, "Static Business Rules")
+Application_Process(batch_processing, "Batch Transaction Processing")
+Application_Component(isolated_ml, "Isolated Machine Learning Models")
+Application_DataObject(fragmented_data, "Fragmented Customer and Transaction Data")
+Application_Service(manual_investigation, "Manual and Reactive Investigation")
+
+Rel_Composition(legacy_fraud_platform, static_rules, "")
+Rel_Composition(legacy_fraud_platform, batch_processing, "")
+Rel_Composition(legacy_fraud_platform, isolated_ml, "")
+Rel_Access_r(isolated_ml, fragmented_data, "reads")
+Rel_Serving(legacy_fraud_platform, manual_investigation, "supports")
+Rel_Association(legacy_fraud_platform, legacy_limitations, "creates")
+Rel_Association(fragmented_data, legacy_limitations, "contributes")
+
+' =========================================================
+' STRATEGY LAYER — TRANSFORMATION RESPONSE
+' =========================================================
+Strategy_CourseOfAction(transformation_program, "Enterprise AI Transformation Program")
+
+Strategy_Capability(realtime_fraud_capability, "Real-Time Fraud Detection")
+Strategy_Capability(ai_governance_capability, "AI Governance and Responsible AI")
+Strategy_Capability(trusted_data_capability, "Trusted Enterprise Data and Knowledge")
+Strategy_Capability(ai_security_capability, "AI Security and Operational Resilience")
+Strategy_Capability(intelligent_operations, "Intelligent and Automated Operations")
+
+Rel_Influence(legacy_limitations, transformation_program, "requires")
+Rel_Influence(operational_exposure, transformation_program, "requires")
+Rel_Influence(regulatory_requirements, transformation_program, "constrains")
+Rel_Influence(customer_value, transformation_program, "sustains")
+
+Rel_Association(transformation_program, realtime_fraud_capability, "establishes")
+Rel_Association(transformation_program, ai_governance_capability, "establishes")
+Rel_Association(transformation_program, trusted_data_capability, "establishes")
+Rel_Association(transformation_program, ai_security_capability, "establishes")
+Rel_Association(transformation_program, intelligent_operations, "establishes")
+
+' =========================================================
+' APPLICATION LAYER — TARGET ENTERPRISE AI PLATFORM
+' =========================================================
+Application_Component(enterprise_ai_platform, "Global Enterprise AI Platform")
+Application_Service(fraud_detection_service, "Real-Time Fraud Detection Service")
+Application_Service(investigation_service, "Automated Investigation Service")
+Application_Service(decision_support_service, "Explainable Decision Support")
+Application_Service(knowledge_service, "Trusted Enterprise Knowledge Service")
+Application_Service(governance_service, "AI Governance and Monitoring Service")
+
+Rel_Composition(enterprise_ai_platform, fraud_detection_service, "")
+Rel_Composition(enterprise_ai_platform, investigation_service, "")
+Rel_Composition(enterprise_ai_platform, decision_support_service, "")
+@enduml
