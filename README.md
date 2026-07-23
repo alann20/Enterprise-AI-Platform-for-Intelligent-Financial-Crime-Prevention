@@ -886,26 +886,28 @@ This layered architecture separates operational processing from analytical workl
 
 ### 🧾 Main Data Domains
 
-GlobalBank organizes enterprise information into business-oriented data domains that represent core banking entities and operational capabilities. Domain-driven data management improves ownership, governance, interoperability, and reuse while enabling AI solutions to consume trusted and standardized information.
+GlobalBank organizes enterprise information into **business-oriented data domains** that represent critical banking entities, operational capabilities, and strategic information assets. Domain-driven data management establishes clear ownership, governance responsibilities, standardized definitions, and reusable data capabilities across the organization.
 
-Each domain supports multiple analytical and operational use cases, including fraud detection, customer intelligence, risk management, regulatory reporting, enterprise search, and AI-assisted decision-making, creating a consistent semantic foundation across the organization.
+Each data domain provides trusted information foundations for AI, analytics, operational processes, and regulatory requirements. These domains enable advanced capabilities such as fraud detection, customer intelligence, risk assessment, enterprise search, regulatory reporting, and AI-driven decision-making by ensuring consistent, secure, and governed enterprise data.
 
-- Customer
-- Account
-- Transaction
-- Payment
-- Card
-- Merchant
-- Device
-- Identity
-- Fraud
-- Case
-- Product
-- Channel
-- Employee
-- Risk
-- Regulatory
-- External Intelligence
+| 🗄️ Data Domain | Description | Primary Business Usage |
+|----------------|-------------|-----------------------|
+| 👤 Customer | Manages customer profiles, relationships, preferences, and interactions. | Customer intelligence, personalization, risk analysis. |
+| 🏦 Account | Contains account information, balances, ownership, and lifecycle data. | Account monitoring, fraud detection, financial analysis. |
+| 💳 Transaction | Stores financial transaction events and processing information. | Real-time fraud detection and behavioral analytics. |
+| 💸 Payment | Represents payment operations, methods, and settlement activities. | Payment monitoring and transaction security. |
+| 💳 Card | Manages card information, lifecycle, and usage behavior. | Card fraud prevention and customer protection. |
+| 🏪 Merchant | Contains merchant profiles, relationships, and transaction behavior. | Merchant risk analysis and fraud intelligence. |
+| 📱 Device | Stores device identifiers, fingerprints, and behavioral signals. | Device risk assessment and anomaly detection. |
+| 🪪 Identity | Manages authentication, identity attributes, and verification information. | Identity protection and access management. |
+| 🚨 Fraud | Contains fraud cases, alerts, patterns, and investigation information. | Fraud analytics, detection models, and investigations. |
+| 📂 Case | Manages investigation workflows, evidence, and resolution activities. | Case management and regulatory support. |
+| 🛍️ Product | Represents banking products, services, and lifecycle information. | Product analytics and customer insights. |
+| 🌐 Channel | Contains interaction channels such as mobile, web, ATM, and branches. | Cross-channel analysis and customer experience. |
+| 👨‍💼 Employee | Manages employee information, roles, and organizational data. | Workforce analytics and access governance. |
+| ⚠️ Risk | Stores risk indicators, assessments, and risk management information. | Enterprise risk management and decision support. |
+| 📑 Regulatory | Contains compliance requirements, reports, and regulatory information. | Regulatory reporting and audit activities. |
+| 🧠 External Intelligence | Integrates external sources such as threat intelligence and market data. | Fraud intelligence, cybersecurity, and risk enrichment. |
 
 ### ✅ Data Governance Controls
 
