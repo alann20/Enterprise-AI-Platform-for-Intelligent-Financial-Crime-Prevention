@@ -360,30 +360,60 @@ GlobalBank will establish a modular **Enterprise AI Platform** that integrates m
 
 The platform will provide reusable enterprise services for fraud prevention, risk assessment, knowledge management, employee productivity, and intelligent workflow automation.
 
+---
+# 🚀 Enterprise AI Platform Capabilities
+
+The **Enterprise AI Platform Capabilities** define the core services and technology components required to enable GlobalBank's AI transformation strategy. The platform is designed as a modular, scalable, and reusable foundation that integrates Artificial Intelligence, Data, Cloud, Security, and Governance capabilities to support multiple enterprise use cases.
+
+The architecture enables business units to consume standardized AI services while maintaining security, compliance, operational resilience, and responsible AI practices. Through centralized platform capabilities and federated delivery, GlobalBank can accelerate AI adoption, reduce duplicated investments, and improve the delivery of intelligent financial services.
+
+| 🚀 Enterprise AI Capability | Description | Business Value |
+|----------------------------|-------------|----------------|
+| 🤖 AI Service Layer | Provides reusable AI capabilities for enterprise applications. Supports ML, GenAI, and Agentic AI services. | Accelerates AI adoption through standardized services. |
+| 🚨 Real-Time Fraud Intelligence | Analyzes transactions continuously and generates fraud risk scores, indicators, and recommended actions. | Reduces fraud losses and improves response time. |
+| 📊 Customer Risk Assessment | Calculates dynamic customer risk using behavioral, transactional, and contextual intelligence. | Enables proactive risk management decisions. |
+| 📚 Enterprise Knowledge Platform | Provides secure knowledge access using RAG with source attribution and auditability. | Improves employee productivity and decision quality. |
+| 🕵️ AI Fraud Investigation Copilot | Assists investigators by summarizing alerts, gathering evidence, and recommending actions. | Reduces investigation effort and improves analyst efficiency. |
+| 🤖 Agentic AI Automation | Enables governed AI agents to execute controlled business workflows with approval mechanisms. | Automates operations while maintaining human oversight. |
+| 🗄️ Enterprise Data Foundation | Provides trusted data capabilities including data products, feature stores, vectors, and knowledge graphs. | Improves AI accuracy and data reuse. |
+| ⚡ Real-Time Data Processing | Enables streaming analytics and event-driven processing for immediate decisions. | Supports real-time fraud and risk detection. |
+| 🔐 AI Security Framework | Protects AI models, data, agents, and services using Zero Trust and AI security controls. | Reduces cybersecurity and AI-specific risks. |
+| ⚖️ AI Governance Framework | Defines policies, standards, lifecycle controls, and Responsible AI practices. | Ensures compliance, transparency, and accountability. |
+| 🔄 LLMOps and MLOps Platform | Manages AI lifecycle including deployment, monitoring, evaluation, and improvement. | Enables reliable production AI operations. |
+| ☁️ Cloud-Native Architecture | Provides scalable hybrid and multi-cloud infrastructure foundations. | Improves resilience, flexibility, and cost optimization. |
+| 🔌 API and Integration Platform | Enables secure enterprise connectivity through reusable APIs and integration patterns. | Improves interoperability and service reuse. |
+| 📈 AI Observability and Monitoring | Tracks AI performance, cost, latency, quality, and operational behavior. | Enables continuous optimization and reliability. |
+---
+
 ### 🧠 Core Technologies
 
-- Machine Learning
-- Deep Learning
-- Predictive Analytics
-- Generative AI
-- Large Language Models
-- Retrieval-Augmented Generation
-- Knowledge Graphs
-- Agentic AI
-- Model Context Protocol
-- Event-Driven Architecture
-- Streaming Analytics
-- Cloud-Native Services
-- API-First Architecture
-- Data Products
-- Feature Stores
-- Vector Databases
-- LLMOps
-- MLOps
-- DevSecOps
-- Policy as Code
-- Infrastructure as Code
+The **Core Technologies** section defines the foundational technology capabilities that enable the GlobalBank Enterprise AI Transformation Program. These technologies provide the building blocks required to design, develop, deploy, secure, and operate intelligent enterprise solutions across fraud detection, customer intelligence, knowledge management, automation, and decision support.
 
+The technology ecosystem combines Artificial Intelligence, Data Engineering, Cloud-Native Architecture, Software Engineering, and Governance practices to create a scalable and reusable Enterprise AI Platform. By adopting modern architectural patterns such as event-driven processing, API-first integration, LLMOps, MLOps, DevSecOps, and Infrastructure as Code, GlobalBank ensures operational excellence, security, agility, and continuous innovation.
+
+| 🧩 Technology Capability | Description | Main Purpose |
+|-------------------------|-------------|--------------|
+| 🧠 Machine Learning | Applies algorithms to identify patterns and predict outcomes. | Fraud detection, risk scoring, predictive models. |
+| 🧬 Deep Learning | Uses neural networks for complex data analysis. | Advanced pattern recognition and intelligent automation. |
+| 📊 Predictive Analytics | Forecasts future events using historical data. | Risk prediction and business decision support. |
+| ✨ Generative AI | Creates new content using AI models. | Enterprise assistants, automation, and knowledge services. |
+| 🧠 Large Language Models (LLMs) | Provides natural language understanding and generation. | Conversational AI and intelligent applications. |
+| 📚 Retrieval-Augmented Generation (RAG) | Combines LLMs with enterprise knowledge sources. | Secure knowledge retrieval and grounded responses. |
+| 🕸️ Knowledge Graphs | Represents relationships between entities and data. | Fraud analysis, reasoning, and contextual intelligence. |
+| 🤖 Agentic AI | Enables autonomous AI agents to perform tasks. | Workflow automation and intelligent operations. |
+| 🔌 Model Context Protocol (MCP) | Standardizes AI access to tools and enterprise systems. | Secure AI integration and tool orchestration. |
+| ⚡ Event-Driven Architecture | Enables asynchronous communication through events. | Real-time processing and scalable integrations. |
+| 📡 Streaming Analytics | Processes continuous data streams in real time. | Transaction monitoring and instant insights. |
+| ☁️ Cloud-Native Services | Uses scalable cloud platform capabilities. | Resilient and flexible AI infrastructure. |
+| 🔗 API-First Architecture | Designs services around reusable APIs. | Integration, interoperability, and service reuse. |
+| 📦 Data Products | Creates reusable business-oriented data assets. | Trusted data consumption across domains. |
+| 🧮 Feature Stores | Manages ML features consistently. | Reusable machine learning capabilities. |
+| 🔎 Vector Databases | Stores embeddings for semantic search. | RAG, similarity search, and AI retrieval. |
+| 🔄 LLMOps | Manages lifecycle of Large Language Model solutions. | Monitoring, evaluation, and operational control. |
+| ⚙️ MLOps | Operationalizes machine learning lifecycle management. | Automated training, deployment, and monitoring. |
+| 🛡️ DevSecOps | Integrates security into software delivery. | Secure application development and deployment. |
+| 📜 Policy as Code | Automates governance and compliance rules. | Continuous policy enforcement. |
+| 🏗️ Infrastructure as Code | Automates infrastructure provisioning. | Repeatable and controlled environments. |
 ---
 
 ## 🏗️ Enterprise AI Platform
