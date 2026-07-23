@@ -116,6 +116,18 @@ The **Strategic Drivers** define the business, technology, and governance motiva
 
 The strategic drivers ensure that AI adoption delivers measurable business value while maintaining security, regulatory compliance, operational resilience, and responsible AI practices. They align business objectives with technology modernization and governance requirements to support sustainable innovation across GlobalBank.
 
+| Strategic Driver Category | Purpose | Business Impact |
+|---------------------------|---------|-----------------|
+| 💼 Business Drivers | Define the business motivations and outcomes expected from AI transformation. | Improve fraud prevention, customer experience, operational efficiency, and business growth. |
+| 🧑‍💻 Technology Drivers | Establish modernization priorities for AI platforms, cloud, data, and integration capabilities. | Enable scalable, resilient, reusable, and real-time AI services. |
+| 🛡️ Governance Drivers | Define policies, controls, and accountability mechanisms for AI adoption. | Ensure responsible AI, compliance, transparency, and risk management. |
+| 🚨 Fraud Transformation | Replace traditional fraud approaches with intelligent detection capabilities. | Reduce financial losses and improve fraud response times. |
+| 🤖 AI Enablement | Create enterprise capabilities for Machine Learning, GenAI, RAG, and Agentic AI. | Accelerate AI adoption across business units. |
+| 🗄️ Data Foundation | Establish trusted, governed, and reusable enterprise data capabilities. | Improve data quality, availability, and AI model performance. |
+| ☁️ Cloud Modernization | Adopt scalable hybrid and multi-cloud architectures. | Increase agility, resilience, and platform scalability. |
+| 🔐 Security and Resilience | Integrate security-by-design and operational resilience practices. | Protect AI systems, data, and financial operations. |
+| ⚖️ Responsible AI | Ensure ethical, explainable, and accountable AI usage. | Increase trust and regulatory alignment. |
+| 📈 Enterprise Innovation | Enable continuous development of new AI-powered capabilities. | Create reusable solutions and accelerate digital transformation. |
 ---
 
 # 💼 Business Drivers
