@@ -353,7 +353,13 @@ All services are subject to centralized architecture, security, data, model-risk
 
 ## 🧩 Primary Use Cases
 
+The GlobalBank Enterprise AI Platform delivers a portfolio of intelligent services designed to enhance fraud prevention, risk management, operational efficiency, and employee productivity across the financial-services organization. These use cases combine Machine Learning, Generative AI, Retrieval-Augmented Generation (RAG), Knowledge Graphs, and Agentic AI to provide real-time insights, automate complex workflows, and support informed decision-making while maintaining enterprise security, governance, and regulatory compliance.
+
+Each use case is built on reusable AI services, trusted enterprise data, and standardized governance controls. By integrating AI capabilities with core banking systems, digital channels, and enterprise knowledge, the platform enables GlobalBank to detect financial threats faster, assist fraud analysts, improve customer risk evaluation, automate controlled operations, and provide secure access to organizational knowledge through explainable, auditable, and responsible AI solutions.
+
 ### 🚨 Real-Time Fraud Detection
+
+The Real-Time Fraud Detection service continuously analyzes financial transactions using customer behavior, transaction attributes, device intelligence, geolocation, merchant information, historical activity, threat intelligence, and graph-based relationships. By combining Machine Learning, behavioral analytics, and enterprise knowledge, the platform generates a real-time risk score, identifies fraud indicators, provides explainable recommendations, and supports immediate actions to prevent financial losses before fraudulent transactions are completed.
 
 Analyze financial transactions using:
 
@@ -371,6 +377,8 @@ The service returns a risk score, fraud indicators, explanations, and a recommen
 
 ### 🕵️ AI-Assisted Fraud Investigation
 
+The AI-Assisted Fraud Investigation capability provides analysts with an intelligent copilot that accelerates complex investigations by summarizing alerts, retrieving relevant customer information, comparing historical fraud cases, constructing investigation timelines, identifying suspicious relationships, and recommending next actions. It also assists in drafting case documentation and preparing regulatory evidence, reducing investigation time while improving consistency, accuracy, and decision quality.
+
 The AI copilot supports analysts by:
 
 - Summarizing alerts
@@ -383,6 +391,8 @@ The AI copilot supports analysts by:
 - Preparing regulatory evidence
 
 ### 📚 Enterprise Knowledge Assistant
+
+The Enterprise Knowledge Assistant leverages a governed Retrieval-Augmented Generation (RAG) platform to provide employees with secure, context-aware access to enterprise knowledge, including banking policies, operating procedures, regulatory requirements, architecture standards, security controls, product documentation, and historical fraud cases. Every response is grounded in trusted enterprise data and includes source attribution, confidence scores, access-control enforcement, and complete audit logging to ensure transparency, compliance, and trustworthy AI interactions.
 
 A governed RAG platform provides employees with secure access to:
 
@@ -398,6 +408,8 @@ Every response must include source attribution, access-control enforcement, conf
 
 ### 🤖 Agentic Fraud Operations
 
+The Agentic Fraud Operations capability enables approved AI agents to automate controlled operational tasks such as collecting investigation evidence, querying enterprise systems, retrieving transaction histories, generating case summaries, assigning investigations, requesting additional customer verification, and updating case-management platforms. Human oversight remains mandatory for high-risk or regulated activities, ensuring that autonomous agents operate within defined governance, security, and Responsible AI policies.
+
 Approved AI agents can automate controlled activities such as:
 
 - Gathering investigation evidence
@@ -411,6 +423,8 @@ Approved AI agents can automate controlled activities such as:
 High-risk actions require human approval.
 
 ### 📊 Customer Risk Assessment
+
+The Customer Risk Assessment service continuously calculates dynamic customer risk by analyzing identity attributes, account activity, transaction behavior, device characteristics, geographic exposure, network relationships, adverse intelligence, and product usage. This multidimensional assessment enables GlobalBank to improve fraud prevention, strengthen Know Your Customer (KYC) and Anti-Money Laundering (AML) processes, support risk-based decision-making, and deliver more personalized and secure financial services.
 
 The platform calculates dynamic customer risk using:
 
@@ -442,6 +456,10 @@ The platform calculates dynamic customer risk using:
 
 ## 📐 Architecture Principles
 
+The GlobalBank Enterprise AI Transformation Program is organized into a set of architecture domains that collectively define the enterprise-wide blueprint for building, governing, securing, and operating AI capabilities. Each domain addresses a specific architectural perspective while remaining aligned with business strategy, regulatory requirements, enterprise standards, and technology best practices.
+
+Together, these domains provide a structured framework that spans the complete transformation lifecycle—from business strategy and capability planning to data management, AI engineering, cloud infrastructure, cybersecurity, platform operations, and enterprise governance. This modular approach enables reusable architectures, consistent decision-making, and scalable AI adoption across the organization.
+
 1. 🎯 Business outcomes drive architecture decisions.
 2. 🔐 Security and privacy are designed from the beginning.
 3. ⚖️ Responsible AI is mandatory.
@@ -467,7 +485,15 @@ The platform calculates dynamic customer risk using:
 
 ## ⚖️ AI Governance Framework
 
+The GlobalBank AI Governance Framework establishes the policies, organizational structures, decision-making processes, and control mechanisms required to ensure that Artificial Intelligence is developed, deployed, and operated responsibly across the enterprise. It provides a standardized governance model that aligns AI initiatives with business objectives, enterprise architecture, regulatory obligations, cybersecurity requirements, and Responsible AI principles.
+
+The framework governs the complete AI lifecycle, from initial business ideation through production deployment, continuous monitoring, and eventual retirement. By integrating governance with architecture, security, data management, model risk management, and operational excellence, GlobalBank ensures that every AI solution is transparent, explainable, auditable, secure, compliant, and aligned with enterprise standards.
+
 ### 🏛️ Governance Bodies
+
+The AI governance operating model is supported by specialized committees and governance boards, each responsible for overseeing specific aspects of enterprise AI strategy, architecture, risk, security, compliance, and operational excellence. Together, these governance bodies ensure consistent decision-making, accountability, and cross-functional collaboration throughout the AI lifecycle.
+
+Each committee contributes unique expertise while operating under a unified governance framework. This federated governance model balances centralized policy enforcement with distributed innovation, enabling GlobalBank to accelerate AI adoption without compromising security, regulatory compliance, or organizational control.
 
 - Executive AI Steering Committee
 - Enterprise Architecture Review Board
@@ -480,6 +506,10 @@ The platform calculates dynamic customer risk using:
 - AI Platform Product Team
 
 ### 🔄 AI Governance Lifecycle
+
+The AI Governance Lifecycle defines the standardized process that every AI initiative must follow before entering production. Each stage introduces governance checkpoints that validate business value, architecture alignment, security, regulatory compliance, model quality, and operational readiness before deployment.
+
+Continuous governance extends beyond implementation through ongoing monitoring, periodic reassessment, model performance evaluation, and controlled retirement. This lifecycle enables GlobalBank to maintain trustworthy, explainable, secure, and compliant AI systems while adapting to evolving business needs, emerging threats, and regulatory changes.
 
 1. Use-case registration
 2. Business-value assessment
@@ -497,6 +527,10 @@ The platform calculates dynamic customer risk using:
 
 ### 🚦 AI Risk Tiers
 
+GlobalBank classifies every AI solution according to its potential business, operational, regulatory, security, and customer impact. Risk classification determines the governance controls, approval authorities, monitoring requirements, documentation standards, and level of human oversight required throughout the AI lifecycle.
+
+As the potential impact of an AI solution increases, governance requirements become progressively more rigorous. High-risk and mission-critical AI systems require enhanced security controls, independent model validation, executive approvals, continuous monitoring, explainability, auditability, and mandatory human oversight before critical decisions are executed.
+
 | Tier | Description | Example | Governance |
 |---|---|---|---|
 | 🟢 Tier 1 | Low Risk | Internal document summarization | Standard review |
@@ -508,69 +542,99 @@ The platform calculates dynamic customer risk using:
 
 ## 🛡️ AI Security
 
+The GlobalBank AI Security Framework protects the Enterprise AI Platform against evolving cyber threats targeting Machine Learning models, Large Language Models (LLMs), AI agents, Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), and supporting enterprise services. The framework adopts a defense-in-depth strategy that combines Zero Trust principles, secure-by-design architecture, continuous monitoring, and proactive threat mitigation to safeguard AI systems throughout their entire lifecycle.
+
+Security is integrated into every stage of AI development and operations, from data ingestion and model training to inference, agent orchestration, and production monitoring. By combining cybersecurity best practices, AI-specific security controls, governance policies, and human oversight, GlobalBank ensures that AI services remain resilient, trustworthy, compliant, and resistant to emerging attack techniques.
+
 ### ⚠️ Main Threat Categories
 
-- Prompt Injection
-- Indirect Prompt Injection
-- Data Poisoning
-- Model Poisoning
-- Model Extraction
-- Sensitive Information Disclosure
-- Insecure Output Handling
-- Excessive Agency
-- Tool Abuse
-- MCP Server Compromise
-- Malicious Tool Descriptions
-- Vector Database Poisoning
-- RAG Document Poisoning
-- Supply Chain Attacks
-- Adversarial Examples
-- Denial of Wallet
-- Model Denial of Service
-- Cross-Tenant Data Leakage
+Enterprise AI systems introduce new attack vectors beyond those found in traditional applications. Threats may target prompts, training data, models, AI agents, external tools, vector databases, cloud infrastructure, or third-party components to manipulate AI behavior, expose sensitive information, or disrupt business operations.
+
+Understanding these threat categories enables GlobalBank to implement preventive, detective, and corrective security controls across the complete AI ecosystem. Continuous threat modeling and AI security assessments ensure that emerging attack techniques are identified and mitigated before they can impact critical financial services.
+
+| Threat Category | Description |
+|---------------------------|--------------------------------------------------------------|
+| Prompt Injection | Malicious prompts manipulate model behavior and responses. |
+| Indirect Prompt Injection | Hidden prompts embedded in external content influence AI. |
+| Data Poisoning | Corrupted training data degrades model accuracy and trust. |
+| Model Poisoning | Malicious updates compromise model integrity and behavior. |
+| Model Extraction | Attackers steal model logic through repeated queries. |
+| Sensitive Information Disclosure | AI exposes confidential or regulated enterprise information. |
+| Insecure Output Handling | AI outputs execute unsafe actions or expose vulnerabilities. |
+| Excessive Agency | AI agents perform unauthorized or excessive operations. |
+| Tool Abuse | AI misuses connected tools or external services. |
+| MCP Server Compromise | Attackers compromise the Model Context Protocol server. |
+| Malicious Tool Descriptions | Fake tool metadata manipulates AI tool selection. |
+| Vector Database Poisoning | Malicious embeddings corrupt semantic search results. |
+| RAG Document Poisoning | Corrupted documents mislead Retrieval-Augmented Generation. |
+| Supply Chain Attacks | Compromised software dependencies affect AI components. |
+| Adversarial Examples | Crafted inputs deceive AI models into wrong predictions. |
+| Denial of Wallet | Excessive AI usage generates unexpected operational costs. |
+| Model Denial of Service | Resource exhaustion prevents AI model availability. |
+| Cross-Tenant Data Leakage | Data is unintentionally exposed across isolated tenants. |
 
 ### 🔐 Security Controls
 
-- Zero Trust
-- Strong workload identity
-- Least privilege
-- Tool allowlisting
-- Prompt filtering
-- Input and output validation
-- Data Loss Prevention
-- Encryption
-- Tokenization
-- Secrets management
-- Network segmentation
-- Private endpoints
-- Human approval gates
-- RAG authorization propagation
-- Immutable audit logging
-- Adversarial testing
-- AI red teaming
-- Software Bill of Materials
-- Model Bill of Materials
-- AI System Cards
+GlobalBank applies multiple layers of security controls to protect AI models, enterprise data, cloud infrastructure, APIs, AI agents, and external integrations. These controls enforce strong authentication, authorization, encryption, monitoring, secure communications, and policy-based access while reducing the likelihood and impact of AI-specific attacks.
+
+Security controls are continuously validated through penetration testing, adversarial testing, AI red teaming, software supply-chain verification, and operational monitoring. This proactive approach enables the organization to maintain resilient, explainable, and secure AI services while meeting regulatory and enterprise governance requirements.
+
+| Security Control | Description |
+|------------------------------|-------------------------------------------------------------|
+| Zero Trust | Verify every user, workload, and request continuously. |
+| Strong Workload Identity | Authenticate workloads using secure cryptographic identities. |
+| Least Privilege | Grant only the minimum permissions required. |
+| Tool Allowlisting | Allow only approved AI tools and integrations. |
+| Prompt Filtering | Detect and block malicious or unsafe prompts. |
+| Input and Output Validation | Validate all AI inputs and generated responses. |
+| Data Loss Prevention | Prevent unauthorized disclosure of sensitive information. |
+| Encryption | Protect data at rest and in transit. |
+| Tokenization | Replace sensitive data with secure surrogate values. |
+| Secrets Management | Securely store and rotate credentials and API keys. |
+| Network Segmentation | Isolate AI services using secure network boundaries. |
+| Private Endpoints | Restrict access through private network connectivity. |
+| Human Approval Gates | Require human authorization for high-risk actions. |
+| RAG Authorization Propagation | Enforce user permissions during knowledge retrieval. |
+| Immutable Audit Logging | Maintain tamper-resistant logs for all AI activities. |
+| Adversarial Testing | Evaluate AI resilience against malicious inputs. |
+| AI Red Teaming | Simulate attacks to identify AI security weaknesses. |
+| Software Bill of Materials | Inventory software components and dependencies. |
+| Model Bill of Materials | Document AI models, datasets, and dependencies. |
+| AI System Cards | Describe AI capabilities, risks, and governance controls. |
 
 ---
 
 ## 🗄️ Data Architecture
 
+The Enterprise Data Architecture provides the trusted information foundation that powers every AI capability within GlobalBank. It integrates operational systems, streaming platforms, analytical environments, and governance services into a unified architecture that delivers high-quality, secure, and reusable data for Machine Learning, Generative AI, analytics, and enterprise decision-making.
+
+Designed around modern data-management principles, the architecture supports real-time processing, data products, metadata management, feature engineering, vector search, knowledge graphs, and AI consumption. Strong governance controls ensure that enterprise data remains accurate, discoverable, compliant, and consistently available across all business domains.
+
 ### 📚 Data Layers
 
-1. Source Systems
-2. Ingestion Layer
-3. Streaming Layer
-4. Raw Data Layer
-5. Curated Data Layer
-6. Data Product Layer
-7. Feature Layer
-8. Vector Layer
-9. Graph Layer
-10. Analytics Layer
-11. AI Consumption Layer
+The Enterprise Data Platform organizes information into logical layers that support ingestion, transformation, governance, analytics, and AI consumption. Each layer has clearly defined responsibilities that improve scalability, maintainability, data quality, and operational efficiency while enabling reusable enterprise data assets.
+
+This layered architecture separates operational processing from analytical workloads and AI services, allowing data to move through standardized pipelines while preserving lineage, governance, and traceability across the entire information lifecycle.
+
+| Data Architecture Layer | Description |
+|------------------------------|-------------------------------------------------------------|
+| Source Systems | Enterprise systems generating operational and business data. |
+| Ingestion Layer | Collects and transfers data from multiple sources securely. |
+| Streaming Layer | Processes real-time events and continuous data flows. |
+| Raw Data Layer | Stores original data for historical and analytical use. |
+| Curated Data Layer | Provides cleaned, transformed, and trusted datasets. |
+| Data Product Layer | Delivers reusable business-oriented data assets. |
+| Feature Layer | Stores engineered features for Machine Learning models. |
+| Vector Layer | Enables semantic search using embeddings and vector data. |
+| Graph Layer | Represents relationships using graph-based data models. |
+| Analytics Layer | Supports reporting, insights, and advanced analytics. |
+| AI Consumption Layer | Provides governed data access for AI applications. |
 
 ### 🧾 Main Data Domains
+
+GlobalBank organizes enterprise information into business-oriented data domains that represent core banking entities and operational capabilities. Domain-driven data management improves ownership, governance, interoperability, and reuse while enabling AI solutions to consume trusted and standardized information.
+
+Each domain supports multiple analytical and operational use cases, including fraud detection, customer intelligence, risk management, regulatory reporting, enterprise search, and AI-assisted decision-making, creating a consistent semantic foundation across the organization.
 
 - Customer
 - Account
@@ -591,67 +655,95 @@ The platform calculates dynamic customer risk using:
 
 ### ✅ Data Governance Controls
 
-- Data ownership
-- Data stewardship
-- Data classification
-- Data-quality rules
-- Data contracts
-- Metadata management
-- Data lineage
-- Consent management
-- Data retention
-- Data residency
-- Access control
-- Data masking
-- Data tokenization
-- Data-product certification
+Effective AI depends on trustworthy, secure, and well-governed enterprise data. GlobalBank implements comprehensive data governance controls that define ownership, stewardship, quality standards, security classifications, lifecycle management, and compliance requirements across every data asset.
+
+These governance controls ensure that enterprise data remains accurate, protected, auditable, and compliant with financial regulations while enabling secure data sharing, reusable data products, and responsible AI development throughout the organization.
+
+| Data Governance Control | Description |
+|------------------------------|-------------------------------------------------------------|
+| Data Ownership | Defines accountability for enterprise data assets. |
+| Data Stewardship | Ensures proper management and quality of data. |
+| Data Classification | Categorizes data based on sensitivity and importance. |
+| Data-Quality Rules | Establishes standards for accurate and reliable data. |
+| Data Contracts | Defines agreements for data exchange and usage. |
+| Metadata Management | Maintains information about data assets and context. |
+| Data Lineage | Tracks data origin, movement, and transformations. |
+| Consent Management | Controls customer data permissions and privacy preferences. |
+| Data Retention | Defines policies for storing and deleting data. |
+| Data Residency | Controls where data is stored and processed. |
+| Access Control | Restricts data access based on authorization policies. |
+| Data Masking | Hides sensitive information from unauthorized users. |
+| Data Tokenization | Replaces sensitive values with secure tokens. |
+| Data-Product Certification | Validates quality and compliance of data products. |
 
 ---
 
 ## 🔄 LLMOps and MLOps
 
+The **GlobalBank LLMOps and MLOps Framework** provides the operational foundation required to develop, deploy, monitor, secure, and continuously improve Artificial Intelligence solutions at enterprise scale. It establishes standardized practices for managing Machine Learning models, Large Language Models (LLMs), Generative AI applications, Retrieval-Augmented Generation (RAG) solutions, and AI agents throughout their complete lifecycle.
+
+By combining automation, governance, observability, quality validation, and operational controls, GlobalBank ensures that AI solutions remain reliable, scalable, cost-efficient, secure, and compliant with financial industry requirements. The framework enables collaboration between data scientists, AI engineers, platform teams, security teams, and business stakeholders while maintaining control over model performance, risks, and business impact.
+
+
 ### 🧠 LLMOps Capabilities
 
-- Model catalog
-- Prompt registry
-- Prompt versioning
-- Evaluation datasets
-- RAG evaluation
-- Agent evaluation
-- Model routing
-- Token and cost monitoring
-- Latency monitoring
-- Hallucination detection
-- Safety evaluation
-- Red-team evaluation
-- Regression testing
-- Canary deployments
-- A/B testing
-- Rollback
-- Model fallback
-- Response caching
-- Trace management
+The **LLMOps capability model** focuses on managing the lifecycle of Generative AI solutions, including Large Language Models, prompts, retrieval systems, AI agents, and enterprise AI services. It provides the processes and tools required to validate model behavior, optimize performance, control costs, monitor risks, and ensure trustworthy AI responses in production environments.
+
+LLMOps introduces enterprise controls for prompt engineering, model evaluation, RAG quality measurement, agent behavior validation, safety testing, and continuous improvement. These capabilities allow GlobalBank to operate Generative AI solutions with transparency, explainability, security, and governance while accelerating the adoption of AI-powered business capabilities.
+
+| AI Evaluation and LLMOps Control | Description |
+|--------------------------------------|-------------------------------------------------------------|
+| Model Catalog | Maintains inventory of approved AI models and metadata. |
+| Prompt Registry | Centralizes reusable prompts and configurations. |
+| Prompt Versioning | Tracks prompt changes and historical versions. |
+| Evaluation Datasets | Provides standardized datasets for AI validation. |
+| RAG Evaluation | Measures retrieval quality and generated responses. |
+| Agent Evaluation | Validates AI agent behavior and task execution. |
+| Model Routing | Selects optimal models based on requirements. |
+| Token and Cost Monitoring | Tracks AI consumption and operational expenses. |
+| Latency Monitoring | Measures response time and performance. |
+| Hallucination Detection | Identifies inaccurate or unsupported AI outputs. |
+| Safety Evaluation | Validates AI behavior against safety policies. |
+| Red-Team Evaluation | Tests AI resilience against malicious attacks. |
+| Regression Testing | Ensures changes do not reduce AI performance. |
+| Canary Deployments | Releases AI updates gradually with monitoring. |
+| A/B Testing | Compares AI versions using controlled experiments. |
+| Rollback | Restores previous AI versions after failures. |
+| Model Fallback | Switches to backup models during incidents. |
+| Response Caching | Improves performance through reusable responses. |
+| Trace Management | Captures AI execution flows and interactions. |
 
 ### 🤖 MLOps Capabilities
 
-- Feature engineering
-- Feature store
-- Experiment tracking
-- Model registry
-- Automated training
-- Model validation
-- CI/CD pipelines
-- Model serving
-- Drift detection
-- Bias monitoring
-- Performance monitoring
-- Automated retraining
-- Champion-challenger models
-- Model retirement
+The **GlobalBank MLOps Framework** provides the operational capabilities required to manage the complete lifecycle of Machine Learning models, from data preparation and experimentation to production deployment, monitoring, continuous improvement, and retirement. It establishes standardized processes that enable data scientists, ML engineers, and platform teams to collaborate efficiently while maintaining model quality, reliability, security, and governance.
+
+MLOps enables GlobalBank to industrialize Machine Learning by automating model development workflows, enforcing validation standards, improving deployment velocity, and ensuring continuous monitoring of model behavior. Through automated pipelines, model governance, performance tracking, and risk controls, the organization can operate enterprise ML solutions at scale while meeting financial industry requirements for transparency, explainability, and operational resilience.
+
+
+| MLOps Capability | Description |
+|--------------------------------------|-------------------------------------------------------------|
+| Feature Engineering | Creates and transforms data features for ML models. |
+| Feature Store | Manages reusable and governed ML features. |
+| Experiment Tracking | Records experiments, parameters, and model results. |
+| Model Registry | Maintains approved models and lifecycle metadata. |
+| Automated Training | Executes repeatable model training workflows. |
+| Model Validation | Verifies accuracy, quality, and compliance requirements. |
+| CI/CD Pipelines | Automates model testing, deployment, and delivery. |
+| Model Serving | Provides scalable model inference capabilities. |
+| Drift Detection | Identifies changes in data or model behavior. |
+| Bias Monitoring | Detects unfair or unintended model outcomes. |
+| Performance Monitoring | Tracks model accuracy and operational metrics. |
+| Automated Retraining | Updates models using new validated data. |
+| Champion-Challenger Models | Compares new models against production versions. |
+| Model Retirement | Removes obsolete models through controlled processes. |
 
 ---
 
 ## ⚙️ Non-Functional Requirements
+
+The **GlobalBank Enterprise AI Platform** is designed to operate as a mission-critical financial-services platform that requires high levels of performance, availability, security, scalability, and operational resilience. Non-functional requirements define the quality attributes and engineering standards that ensure AI services can support millions of customers, process high transaction volumes, and deliver reliable real-time decisions while maintaining enterprise-grade reliability.
+
+These requirements establish the foundation for secure and sustainable AI operations by addressing technical performance, business continuity, regulatory compliance, cost optimization, and governance expectations. They ensure that AI workloads, including fraud detection, customer risk assessment, Generative AI services, and intelligent agents, operate with measurable service levels, complete traceability, and the controls required for a Tier 1 financial institution.
 
 | Category | Requirement |
 |---|---|
@@ -669,6 +761,11 @@ The platform calculates dynamic customer risk using:
 ---
 
 ## 📊 Key Performance Indicators
+
+The **GlobalBank Enterprise AI Platform Key Performance Indicators (KPIs)** define the measurable outcomes required to evaluate the effectiveness, reliability, security, and business impact of the AI transformation program. These indicators provide a quantitative framework to measure fraud prevention capabilities, operational efficiency, platform performance, AI governance maturity, and compliance with enterprise standards.
+
+KPIs enable continuous optimization of AI services by providing visibility into model quality, infrastructure performance, cost efficiency, risk management, and user adoption. Through continuous monitoring of these metrics, GlobalBank ensures that AI capabilities deliver measurable business value while maintaining transparency, regulatory compliance, operational resilience, and responsible AI practices.
+
 
 | KPI | Target |
 |---|---|
@@ -692,22 +789,28 @@ The platform calculates dynamic customer risk using:
 
 ## 🎯 Expected Business Outcomes
 
-- 🚨 Real-Time Fraud Detection
-- 💰 Reduced Fraud Losses
-- ✅ Reduced False Positives
-- 🕵️ Faster Fraud Investigations
-- 🤝 Improved Customer Trust
-- 👨‍💼 Improved Analyst Productivity
-- 🧠 Intelligent Decision Support
-- 📚 Enterprise Knowledge Management
-- ♻️ Reusable AI Services
-- ⚖️ Centralized AI Governance
-- 📈 Increased Operational Efficiency
-- 🛡️ Improved Regulatory Compliance
-- 🚀 Faster AI Time to Market
-- 🏗️ Improved Architecture Consistency
-- 💸 Reduced Duplicated Technology Investments
-- 🔎 Better Visibility into AI Risk and Performance
+The **GlobalBank Enterprise AI Transformation Program** is designed to deliver measurable business outcomes by transforming traditional banking operations into intelligent, automated, and data-driven capabilities. Through the adoption of Enterprise AI, Machine Learning, Generative AI, RAG, and Agentic AI, the organization can improve fraud prevention, accelerate decision-making, enhance customer experiences, and increase operational efficiency across global business units.
+
+These outcomes represent the strategic value expected from the Enterprise AI Platform, combining business innovation, technology modernization, governance maturity, and operational excellence. By establishing reusable AI capabilities, centralized governance, and enterprise architecture standards, GlobalBank can accelerate AI adoption while reducing risk, controlling costs, and ensuring sustainable digital transformation.
+
+| Expected Business Outcome | Description |
+|---|---|
+| 🚨 Real-Time Fraud Detection | Detects suspicious transactions using AI-driven analysis and real-time risk scoring. |
+| 💰 Reduced Fraud Losses | Minimizes financial impact through proactive fraud prevention capabilities. |
+| ✅ Reduced False Positives | Improves detection accuracy while reducing unnecessary customer alerts. |
+| 🕵️ Faster Fraud Investigations | Accelerates investigations through AI-powered analysis and automation. |
+| 🤝 Improved Customer Trust | Enhances customer confidence through secure and reliable banking services. |
+| 👨‍💼 Improved Analyst Productivity | Supports analysts with AI copilots and intelligent recommendations. |
+| 🧠 Intelligent Decision Support | Provides data-driven insights for faster and better decisions. |
+| 📚 Enterprise Knowledge Management | Enables secure access to institutional knowledge through AI assistants. |
+| ♻️ Reusable AI Services | Creates shared AI capabilities available across business domains. |
+| ⚖️ Centralized AI Governance | Establishes consistent policies, controls, and accountability. |
+| 📈 Increased Operational Efficiency | Automates processes and reduces manual operational effort. |
+| 🛡️ Improved Regulatory Compliance | Strengthens compliance through traceability, governance, and controls. |
+| 🚀 Faster AI Time to Market | Accelerates delivery of new AI solutions and business capabilities. |
+| 🏗️ Improved Architecture Consistency | Standardizes enterprise AI architecture patterns and practices. |
+| 💸 Reduced Duplicated Technology Investments | Promotes reuse and avoids redundant AI platforms and solutions. |
+| 🔎 Better Visibility into AI Risk and Performance | Provides monitoring of AI behavior, risks, and operational metrics. |
 
 ---
 
