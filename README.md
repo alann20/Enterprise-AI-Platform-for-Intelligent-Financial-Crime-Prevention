@@ -1443,7 +1443,7 @@ The technology ecosystem covers cloud platforms, data and analytics services, Ar
 
 This repository is primarily vendor-neutral. Reference implementations and decision matrices may include:
 
-# ☁️ Cloud
+# ☁️ Cloud Technology Landscape
 
 The **Cloud Technology Landscape** defines the foundational infrastructure platforms used to host enterprise applications, AI services, data platforms, and digital capabilities. GlobalBank adopts a hybrid and multi-cloud strategy to improve resilience, avoid vendor dependency, support regional requirements, and enable scalable deployment of AI workloads.
 
