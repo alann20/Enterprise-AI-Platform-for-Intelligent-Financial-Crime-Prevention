@@ -669,6 +669,26 @@ The GlobalBank AI Security Framework protects the Enterprise AI Platform against
 
 Security is integrated into every stage of AI development and operations, from data ingestion and model training to inference, agent orchestration, and production monitoring. By combining cybersecurity best practices, AI-specific security controls, governance policies, and human oversight, GlobalBank ensures that AI services remain resilient, trustworthy, compliant, and resistant to emerging attack techniques.
 
+| 🛡️ AI Security Domain | Description | Security Objective |
+|----------------------|-------------|-------------------|
+| 🔐 Zero Trust Architecture | Applies continuous verification and least-trust principles. | Prevent unauthorized access to AI resources. |
+| 👤 Identity and Access Management | Controls user, workload, and agent identities. | Ensure secure authentication and authorization. |
+| 🧩 AI Workload Security | Protects AI applications, services, and runtime environments. | Reduce AI infrastructure vulnerabilities. |
+| 📥 Data Security | Protects training, retrieval, and operational data assets. | Maintain confidentiality, integrity, and availability. |
+| 🧠 Model Security | Protects ML models and LLMs from attacks and misuse. | Prevent model compromise and manipulation. |
+| 📚 RAG Security | Secures retrieval pipelines, documents, and knowledge sources. | Prevent unauthorized information disclosure. |
+| 🤖 Agent Security | Controls autonomous AI agent behavior and permissions. | Prevent excessive actions and misuse. |
+| 🔌 MCP Security | Protects Model Context Protocol servers and tools. | Secure AI-to-tool communication. |
+| 🛠️ Tool Governance | Controls available AI tools and external integrations. | Prevent unauthorized tool execution. |
+| 🧪 AI Threat Modeling | Identifies AI-specific threats and attack scenarios. | Proactively manage security risks. |
+| 🔍 AI Red Teaming | Performs adversarial testing against AI systems. | Discover vulnerabilities before exploitation. |
+| 📊 AI Monitoring and Detection | Tracks AI behavior, usage, and security events. | Detect anomalies and attacks quickly. |
+| 📝 Audit Logging | Maintains immutable records of AI activities. | Enable investigation and regulatory compliance. |
+| 🔒 Encryption | Protects data in transit and at rest. | Ensure data confidentiality. |
+| 🧬 Supply Chain Security | Validates models, libraries, and dependencies. | Reduce third-party technology risks. |
+| 👥 Human Oversight Controls | Requires approval for high-risk AI decisions. | Maintain accountability and governance. |
+| ⚖️ Responsible AI Security | Integrates fairness, transparency, and safety controls. | Ensure trustworthy AI adoption. |
+
 ### ⚠️ Main Threat Categories
 
 Enterprise AI systems introduce new attack vectors beyond those found in traditional applications. Threats may target prompts, training data, models, AI agents, external tools, vector databases, cloud infrastructure, or third-party components to manipulate AI behavior, expose sensitive information, or disrupt business operations.
@@ -739,19 +759,20 @@ The Enterprise Data Platform organizes information into logical layers that supp
 
 This layered architecture separates operational processing from analytical workloads and AI services, allowing data to move through standardized pipelines while preserving lineage, governance, and traceability across the entire information lifecycle.
 
-| Data Architecture Layer | Description |
-|------------------------------|-------------------------------------------------------------|
-| Source Systems | Enterprise systems generating operational and business data. |
-| Ingestion Layer | Collects and transfers data from multiple sources securely. |
-| Streaming Layer | Processes real-time events and continuous data flows. |
-| Raw Data Layer | Stores original data for historical and analytical use. |
-| Curated Data Layer | Provides cleaned, transformed, and trusted datasets. |
-| Data Product Layer | Delivers reusable business-oriented data assets. |
-| Feature Layer | Stores engineered features for Machine Learning models. |
-| Vector Layer | Enables semantic search using embeddings and vector data. |
-| Graph Layer | Represents relationships using graph-based data models. |
-| Analytics Layer | Supports reporting, insights, and advanced analytics. |
-| AI Consumption Layer | Provides governed data access for AI applications. |
+| 🗄️ Data Architecture Layer | Description | Main Capabilities |
+|---------------------------|-------------|------------------|
+| 🏦 Source Systems | Provides enterprise operational data from core business platforms. | Core banking, payments, CRM, fraud systems, identity platforms. |
+| 📥 Data Ingestion Layer | Captures and transfers data into enterprise platforms. | Batch ingestion, APIs, ETL, ELT, data pipelines. |
+| ⚡ Streaming Layer | Enables real-time data processing and event consumption. | Kafka, event streaming, real-time transaction processing. |
+| 🗃️ Raw Data Layer | Stores original enterprise data for future processing. | Data lake storage, historical data preservation. |
+| 🧹 Curated Data Layer | Provides validated and transformed enterprise datasets. | Data quality, cleansing, standardization, trusted datasets. |
+| 📦 Data Product Layer | Creates reusable business-oriented data assets. | Domain data products, data contracts, certification. |
+| 🧮 Feature Layer | Provides machine learning-ready attributes. | Feature engineering, feature store, reusable ML features. |
+| 🔎 Vector Layer | Enables semantic search and AI retrieval capabilities. | Embeddings, vector databases, similarity search. |
+| 🕸️ Graph Layer | Represents relationships between enterprise entities. | Knowledge graphs, fraud networks, relationship analysis. |
+| 📊 Analytics Layer | Supports reporting, analytics, and business intelligence. | Dashboards, analytics models, decision support. |
+| 🤖 AI Consumption Layer | Provides governed access to data for AI workloads. | ML models, GenAI, RAG, agents, AI services. |
+
 
 ### 🧾 Main Data Domains
 
