@@ -226,6 +226,29 @@ The **Current Challenges** section describes the main business, technology, data
 
 The existing landscape contains fragmented capabilities, legacy technologies, inconsistent governance practices, and operational limitations that reduce agility, increase risk, and slow innovation. Addressing these challenges requires an enterprise-wide transformation approach combining architecture modernization, data governance, AI engineering, security controls, and responsible AI practices.
 
+
+| Challenge Category | Current Challenge | Business Impact |
+|-------------------|-------------------|----------------|
+| 💼 Business | Fragmented fraud detection capabilities across multiple platforms. | Limits visibility and reduces fraud prevention effectiveness. |
+| 💼 Business | High false-positive rates and manual investigation processes. | Increases operational costs and reduces analyst productivity. |
+| 💼 Business | Limited cross-channel fraud analysis. | Prevents detection of coordinated fraud patterns. |
+| 💼 Business | Slow response to emerging fraud techniques. | Increases financial losses and customer impact. |
+| 🖥️ Technology | Legacy fraud-management platforms and outdated architectures. | Restricts scalability, agility, and innovation speed. |
+| 🖥️ Technology | Batch-based processing instead of real-time decisioning. | Delays fraud detection and risk response. |
+| 🖥️ Technology | Point-to-point integrations and technical complexity. | Increases maintenance effort and operational risk. |
+| 🖥️ Technology | Lack of reusable AI platform services. | Creates duplicated solutions and higher costs. |
+| 🗄️ Data | Fragmented data sources and inconsistent customer identifiers. | Reduces data quality and AI model accuracy. |
+| 🗄️ Data | Limited metadata, lineage, and governance controls. | Impacts compliance and data trust. |
+| 🗄️ Data | Delayed access to transactional and behavioral data. | Limits real-time analytics capabilities. |
+| 🗄️ Data | Uncontrolled sensitive data usage. | Creates privacy and security risks. |
+| 🤖 AI | Limited model governance and inventory management. | Reduces AI lifecycle visibility and control. |
+| 🤖 AI | Model drift, bias, and explainability challenges. | Creates operational and regulatory risks. |
+| 🤖 AI | Weak prompt, agent, and GenAI governance. | Increases AI security and reliability risks. |
+| 🤖 AI | Limited adversarial testing and AI security validation. | Exposes AI systems to emerging threats. |
+| ⚖️ Regulatory | Increasing requirements for Responsible AI and transparency. | Requires stronger governance and compliance controls. |
+| ⚖️ Regulatory | Complex data privacy and cross-border regulations. | Increases compliance complexity. |
+| ⚖️ Regulatory | Model Risk Management requirements. | Requires validation, monitoring, and documentation. |
+| ⚖️ Regulatory | Third-party AI provider dependencies. | Introduces additional operational and security risks. |
 ---
 
 # 💼 Business Challenges
