@@ -421,38 +421,22 @@ The Enterprise AI Platform will move GlobalBank from fragmented, reactive, and i
 
 ---
 
-# 🚀 Strategic Vision
+# 🚀 Enterprise AI Strategic Vision Capabilities
 
-The **Enterprise AI Platform Strategic Vision** defines the future state of GlobalBank's intelligent transformation journey. The platform will become a strategic enterprise capability that enables the organization to leverage Artificial Intelligence as a core business differentiator, improving fraud prevention, customer protection, operational efficiency, and data-driven decision-making across global markets.
+The **Enterprise AI Strategic Vision Capabilities** define the key capabilities that will enable GlobalBank to transform its traditional banking operations into an intelligent, secure, and AI-driven enterprise. These capabilities establish the foundation for real-time decision-making, advanced fraud prevention, intelligent automation, and trusted AI adoption across the organization.
 
-By establishing a unified AI foundation, GlobalBank will move from fragmented and isolated AI initiatives toward a governed, scalable, and reusable ecosystem. The platform will integrate advanced AI technologies, enterprise data capabilities, cloud services, security controls, and governance frameworks to enable trusted innovation while maintaining regulatory compliance, operational resilience, and customer confidence.
+The strategic vision combines Artificial Intelligence, Data, Cloud, Security, and Governance capabilities to create a sustainable enterprise AI ecosystem. Each capability contributes to business value by improving customer protection, operational efficiency, regulatory compliance, and the ability to scale AI innovation globally.
 
-The Enterprise AI Platform will become the foundation for GlobalBank's intelligent transformation by enabling:
-
-- 🚨 **Real-Time Fraud Prevention**
-  - Detect suspicious transactions instantly using AI, Machine Learning, behavioral analytics, and graph intelligence.
-
-- 🧠 **Enterprise Intelligence Layer**
-  - Provide a centralized AI foundation for knowledge discovery, decision support, and intelligent automation.
-
-- 🤖 **AI-Powered Business Operations**
-  - Enable AI copilots and autonomous agents to support employees and automate repetitive workflows.
-
-- 📚 **Trusted Enterprise Knowledge**
-  - Deliver secure knowledge access using Retrieval-Augmented Generation (RAG), vector search, and knowledge graphs.
-
-- 📊 **Intelligent Risk Management**
-  - Improve customer, transaction, and operational risk assessment through predictive intelligence.
-
-- ☁️ **Cloud-Native AI Foundation**
-  - Provide scalable hybrid and multi-cloud capabilities for enterprise AI workloads.
-
-- 🔐 **Secure-by-Design AI**
-  - Protect AI models, data, agents, and integrations through Zero Trust and AI security controls.
-
-- ⚖️ **Responsible AI Governance**
-  - Ensure transparency, explainability, compliance, and human oversight throughout the AI lifecycle.
-
+| 🚀 Strategic Capability | Description | Business Value |
+|------------------------|-------------|----------------|
+| 🚨 Real-Time Fraud Prevention | Detects suspicious transactions instantly using AI, Machine Learning, behavioral analytics, and graph intelligence. | Reduces fraud losses and improves customer protection. |
+| 🧠 Enterprise Intelligence Layer | Provides a centralized AI foundation for knowledge discovery, decision support, and intelligent automation. | Enables data-driven decisions and enterprise-wide intelligence. |
+| 🤖 AI-Powered Business Operations | Enables AI copilots and autonomous agents to support employees and automate repetitive workflows. | Improves productivity and operational efficiency. |
+| 📚 Trusted Enterprise Knowledge | Provides secure knowledge access through RAG, vector search, and knowledge graphs with governance controls. | Improves information accessibility and decision accuracy. |
+| 📊 Intelligent Risk Management | Enhances customer, transaction, and operational risk assessment using predictive intelligence. | Enables proactive risk mitigation and better decisions. |
+| ☁️ Cloud-Native AI Foundation | Provides scalable hybrid and multi-cloud capabilities for enterprise AI workloads. | Improves scalability, resilience, and technology agility. |
+| 🔐 Secure-by-Design AI | Protects AI models, data, agents, and integrations using Zero Trust and AI security controls. | Reduces cybersecurity risks and protects critical assets. |
+| ⚖️ Responsible AI Governance | Ensures transparency, explainability, compliance, and human oversight throughout the AI lifecycle. | Enables trusted, ethical, and compliant AI adoption. |
 ---
 
 # 🏗️ Enterprise AI Platform Building Blocks
