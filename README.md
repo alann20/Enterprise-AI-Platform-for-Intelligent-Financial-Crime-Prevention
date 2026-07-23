@@ -264,6 +264,9 @@ The platform will provide reusable enterprise services for fraud prevention, ris
 ---
 
 ## 🏗️ Enterprise AI Platform
+The GlobalBank Enterprise AI Platform is the central intelligence layer that enables secure, scalable, and enterprise-wide adoption of artificial intelligence across the organization. It connects customers, employees, digital channels, enterprise applications, and banking systems through a unified architecture that combines Machine Learning, Generative AI, Retrieval-Augmented Generation (RAG), Knowledge Graphs, AI Agents, and cloud-native services. The platform is designed to deliver intelligent decision-making, real-time fraud detection, personalized customer experiences, and operational automation while maintaining high levels of security, resilience, and regulatory compliance.
+
+Built on a modern data foundation, the platform integrates enterprise data products, streaming pipelines, vector databases, feature stores, and core banking systems to provide trusted, context-aware AI services. Supported by MLOps, LLMOps, Model Context Protocol (MCP), AI governance, observability, and Responsible AI controls, the Enterprise AI Platform enables GlobalBank to accelerate innovation, standardize AI development, reuse enterprise capabilities, and deliver secure, explainable, and governed AI solutions at global scale.
 
 ```text
                             Customers and Users
