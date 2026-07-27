@@ -1238,42 +1238,12 @@ The structure is designed to support multiple purposes: enterprise architecture 
 globalbank-enterprise-ai-transformation/
 │
 ├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── SECURITY.md
-├── CHANGELOG.md
-├── ROADMAP.md
-├── GLOSSARY.md
-│
-├── 00-executive-summary/
-├── 01-business-architecture/
-├── 02-enterprise-architecture/
-├── 03-ai-strategy/
-├── 04-solution-architecture/
-├── 05-ai-reference-architectures/
-├── 06-rag/
-├── 07-agentic-ai/
-├── 08-mcp/
-├── 09-data-architecture/
-├── 10-cloud-architecture/
-├── 11-ai-security/
-├── 12-ai-governance/
-├── 13-llmops-mlops/
-├── 14-architecture-governance/
-├── 15-adrs/
-├── 16-patterns/
-├── 17-anti-patterns/
-├── 18-playbooks/
-├── 19-templates/
-├── 20-diagrams/
-├── 21-ai-evaluation/
-├── 22-technology-radar/
-├── 23-decision-matrices/
-├── 24-failure-library/
-├── 25-benchmarks/
-├── 26-implementation/
-└── 27-case-studies/
+├── 00-Program Overview
+├── 01- Business Context/
+├── 02-Company Overview/
+├── 03-Business Objectives/
+├── 04-diagrams/
+
 ```
 
 ---
