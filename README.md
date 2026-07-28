@@ -1251,7 +1251,6 @@ globalbank-enterprise-ai-transformation/
 
 ## 📦 Architecture Deliverables
 
-# 📦 Architecture Deliverables
 
 The **GlobalBank Enterprise AI Transformation Program** defines a comprehensive architecture delivery model composed of more than **150 enterprise architecture artifacts** covering strategy, business, technology, AI, data, security, governance, and operations. These deliverables provide a complete reference framework for designing, implementing, governing, and operating an enterprise-scale AI platform within a highly regulated financial-services environment.
 
